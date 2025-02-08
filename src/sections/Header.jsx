@@ -24,7 +24,7 @@ const Header = () => {
             isOpened ? 'max-lg:opacity-100' : 'max-lg:pointer-events-none'
           )}
         >
-          <div className=' max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before max-md:px-4'>
+          <div className='max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before max-md:px-4'>
             <nav className='max-lg:relative max-lg:z-2 max-lg:my-auto'>
               <ul className='flex max-lg:block max-lg:px-12'>
                 <li className='nav-li'>

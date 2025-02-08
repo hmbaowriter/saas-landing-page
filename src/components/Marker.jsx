@@ -1,4 +1,4 @@
-export const Marker = ({ fill }) => {
+export const Marker = ({ markerFill }) => {
   return (
     <svg
       width='8'
@@ -10,7 +10,7 @@ export const Marker = ({ fill }) => {
         fillRule='evenodd'
         clipRule='evenodd'
         d='M2.5 0H0.5V4V18V22H2.5V16.25L7.63991 11.7526C8.09524 11.3542 8.09524 10.6458 7.63991 10.2474L2.5 5.75V0Z'
-        fill={fill || '#2EF2FF'}
+        fill={markerFill || '#2EF2FF'}
       />
     </svg>
   );
