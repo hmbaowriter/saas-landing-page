@@ -7,6 +7,7 @@ import Pricing from './sections/Pricing';
 import Faq from './sections/Faq';
 import Testimonials from './sections/Testimonials';
 import Download from './sections/Download';
+import Footer from './sections/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Faq />
       <Testimonials />
       <Download />
+      <Footer />
     </main>
   );
 };
